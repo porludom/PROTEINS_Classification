@@ -14,5 +14,5 @@ Second one is the following network:
 ~73% of accuracy achieved.
 More hidden dimensionality in convolution leads to overfitting. Less heads or hidden dimensionality leads to more poor performance. After many tries, this parameters in the structure seem to be the best
 
-The third and best one is the Graph U-Net that follow the structure GCN -> U-Net (for embeddings) -> aggregation to get graph embeddings -> classification by linear models.
+The third and best one is the Graph U-Net that follow the structure GCN -> U-Net (for embeddings) -> aggregation to get graph embeddings -> classification by linear models. This model showed ~77% of accuracy
 More info can be found in the code, paper or the report in the root
