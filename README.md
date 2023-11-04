@@ -11,5 +11,5 @@ Second one is the following network:
 - Linear (64*2 dim-> 64 dim) + Relu
 - Linear (64 -> 2 dim) + Softmax
 
-~73% of accuracy achieved
+~73% of accuracy achieved.
 More hidden dimensionality in convolution leads to overfitting. Less heads or hidden dimensionality leads to more poor performance. After many tries, this parameters in the structure seem to be the best
