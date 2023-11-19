@@ -7,7 +7,7 @@ First is the baseline model -  neural network with linear layers with global ave
 Second one is the following network:
 - Graph Convolution (4 dim -> 64 dim, dropout=0.5) + Relu
 - Graph Convolution with attention (64 dim -> 64 dim, 16 heads, dropout rate = 0.6) + Relu
-- Graph Convolution (64*16 dim-> 64*2 dim, dropout = 0.5) + Relu
+- Graph Convolution (64 x 16 dim-> 64*2 dim, dropout = 0.5) + Relu
 - Linear (64*2 dim-> 64 dim) + Relu
 - Linear (64 -> 2 dim) + Softmax
 
