@@ -16,3 +16,6 @@ More hidden dimensionality in convolution leads to overfitting. Less heads or hi
 
 The third and best one is the Graph U-Net that follow the structure GCN -> U-Net (for embeddings) -> aggregation to get graph embeddings -> classification by linear models. This model showed ~77% of accuracy
 More info can be found in the code, paper or the report 3 in the root
+
+Also, here is the colab that allows to learn about graph u-net interactively:
+https://colab.research.google.com/drive/1a8h990BHr-xZcSHJmQa3bu6VF2nWVVmt
